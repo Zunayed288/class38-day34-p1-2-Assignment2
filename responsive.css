@@ -1,0 +1,147 @@
+@media (max-width:1120px) {
+    .header {
+        padding: 0 20px;
+    }
+    .service {
+        padding: 70px 20px;
+    }
+    .footer {
+        padding: 20px 20px;
+    }
+}
+@media (max-width:950px) {
+    .h-menu ul li a {
+        padding: 15px 10px;
+    }
+
+}
+
+@media (max-width:900px) {
+    .h-logo {
+        align-self: center;
+    }
+    .h-menu ul li a {
+        font-size: 16px;
+    }
+    .banner {
+        height: 50vh;
+    }
+    .b-content h4 {
+        font-size: 20px;
+    }
+    .b-content h2 {
+        font-size: 25px;
+    }
+    .aboutme {
+        padding: 0 20px;
+    }
+}
+@media (max-width:800px) {
+    .wrapper{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .header {
+        height: 100px;
+        flex-wrap: wrap;
+    }
+    .h-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .h-menu {
+        width: 100%;
+    }
+    .h-menu ul {
+        justify-content: center;;
+        align-items: flex-start;
+    }
+    .h-menu ul li a {
+        border-right: 0;
+    }
+    .a-content h4 {
+        font-size: 16px;
+    }
+    .a-content p {
+        font-size: 14px;
+    }
+    .service-item span i {
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+    .service-item h3 {
+        font-size: 20px;
+    }
+    .service-item p {
+        line-height: 20px;
+        font-size: 14px;
+    }
+}
+@media (max-width:768px) {
+    .a-content p {
+        width: 400px;
+    }
+
+}
+@media (max-width:700px) {
+    .a-content p {
+        width: 300px;
+    }
+    .services {
+        flex-wrap: wrap;
+    }
+    .service-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:650px) {
+    .header {
+        height: 65px;
+    }
+    .h-logo img {
+        width: 70px;
+    }
+    .banner {
+        height: 40vh;
+    }
+    .aboutme {
+        flex-wrap: wrap;
+    }
+    .myimg {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .a-content p {
+        width: 100%;
+    }
+}
+@media (max-width:476px) {
+    .footer {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .f-content {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .f-menu {
+        width: 100%;
+    }
+    .f-menu ul {
+        justify-content: center;
+    }
+}
+@media (max-width:470px) {
+    .a-content p {
+        width: 70%;
+    }
+    .b-content h4 {
+        font-size: 15px;
+    }
+    .b-content h2 {
+        font-size: 18px;
+    }
+}
